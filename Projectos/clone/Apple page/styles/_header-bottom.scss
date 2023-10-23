@@ -1,0 +1,27 @@
+.botton-header{
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+
+    .botton-header-inner{
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            font-size: 30px;
+        }
+        a{
+            color: #333;
+            margin: 0 10px;
+        }
+        .btn{
+            background-color: #0071e3;
+            border-radius: 25px;
+            padding: 10px 10px;
+            color: white;
+        }
+    }
+
+}

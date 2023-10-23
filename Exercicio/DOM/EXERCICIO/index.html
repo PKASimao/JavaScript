@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Titulo 1</h1>
+        <button>Fundo amarelo</button>
+    </div>
+
+    <script>
+
+        document.querySelector("button").addEventListener("click", fundo)
+
+        function fundo(){
+            
+
+            if(document.querySelector("h1").style.backgroundColor == ''){
+                
+                document.querySelector("button").textContent = 'fundo transp'
+                document.querySelector("h1").style.backgroundColor = 'yellow'
+
+               
+            }else{
+                document.querySelector("h1").style.backgroundColor = ''
+                document.querySelector("button").textContent = 'fundo amarelo'
+               
+            }
+
+
+        }
+
+    
+
+    </script>
+
+</body>
+</html>
